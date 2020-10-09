@@ -17,7 +17,7 @@ int main()
 
 	//2
 
-	int a;
+	unsigned int a;
 	std::cout << "\nEquation is 3*|a|-2*(a+6)^1/2  \nEnter a value: ";					 
 	std::cin >> a;
 		int resultq = 3 * abs(a) - 2 * sqrt(a + 6);
